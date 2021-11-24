@@ -1,0 +1,70 @@
+.container-bs{
+
+  background-color: #167A9A;
+  display: flex;
+  justify-content: space-between;
+  height: 151px;
+  color: #ffffff;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+
+}
+
+.item{
+  padding-top: 60px;
+  display: flex;
+}
+
+.logo{
+
+  margin-left: 70px;
+
+}
+
+.busca{
+  width: 340px;
+  height: 26px;
+  border-bottom: 1px solid #ffffff;
+}
+
+input{
+  border: 0 none;
+  color: #ffffff;
+  background-color: #167A9A;
+  margin-left: 12px;
+  box-shadow: 0 0 0 0;
+}
+
+input:focus{
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+::-webkit-input-placeholder {
+  color: #ffffff;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+
+}
+
+
+mat-icon{
+  font-size: 25px;
+}
+
+.menu{
+
+  margin-right: 70px;
+}
+
+.menu p{
+  margin-left: 5px;
+  padding-top: 5px;
+}

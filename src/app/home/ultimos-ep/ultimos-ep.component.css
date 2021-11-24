@@ -1,0 +1,92 @@
+h1{
+
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  color: #494D4B;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+
+
+}
+
+.ultimos-ep{
+
+  margin: auto;
+  margin-top: 47px;
+  width: 90%;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+
+}
+
+.episodio{
+
+  width: 400px;
+  height: 123px;
+  background: #FFFFFF;
+  border: 1px solid #E6E8EB;
+  box-sizing: border-box;
+  border-radius: 24px;
+  padding: 20px;
+  display: flex;
+
+}
+
+.info{
+
+  width: 285px;
+  height: 70px;
+  margin-left: 10px;
+
+}
+
+.info h4{
+
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+  color: #494D4B;
+  margin-top: 4px;
+
+}
+
+.info p, .info span{
+
+  font-family: 'Inter' ;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height:10px;
+  color: #808080;
+  margin-right: 15px;
+  margin-bottom: 4px;
+
+}
+
+.play-button{
+  
+  float: right;
+  width: 37px;
+  height: 36px;
+  background: #F7F8FA;
+  border: 1px solid #E6E8EB;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: #167A9A;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+.play-button mat-icon{
+
+  margin-left: 5px;
+
+}

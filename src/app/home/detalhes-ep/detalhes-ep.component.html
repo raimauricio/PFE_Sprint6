@@ -1,0 +1,18 @@
+<h1>Detalhe PapoCast</h1>
+
+<div class="detalhes-ep">
+  <p (click)="voltandoUltimosEp()"><mat-icon class="mat-18">arrow_left</mat-icon> voltar ultimos lançamentos</p>
+  <div class="card-ep">
+    <img [src]="episodioDetalhe.imgLarg" alt="">
+    <h3>{{episodioDetalhe.titulo}}</h3>
+    <h4>Descrição:</h4>
+    <p>{{episodioDetalhe.descricao}}</p>
+
+    <div class="registro">
+      <span>PapoCast</span>
+      <div>
+        <span>{{episodioDetalhe.duracao}}</span><span class="ponto"></span><span>{{episodioDetalhe.data}}</span>
+      </div>
+    </div>
+  </div>
+</div>

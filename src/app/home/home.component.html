@@ -1,0 +1,20 @@
+<div class="container-home">
+  <app-barra-superior></app-barra-superior>
+  <div class="containers-ep">
+    <section class="ep-esquerda">
+      <div class="todos-ep">
+        <h1>Todos os episódios</h1>
+
+        <app-todos-ep [player]="player" (trocandoPlayer)="recebendoPlayer($event)" ></app-todos-ep>
+
+      </div>
+    </section>
+    <section class="ep-direita">
+      <app-ultimos-ep (trocandoPlayer)="recebendoPlayer($event)" *ngIf="!player; else epdetalhes"></app-ultimos-ep>
+
+      <ng-template #epdetalhes>
+        <app-detalhes-ep (voltando)="recebendoPlayer($event)"></app-detalhes-ep>
+      </ng-template>
+    </section>
+  </div>
+</div>

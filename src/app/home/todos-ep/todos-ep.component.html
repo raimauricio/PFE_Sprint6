@@ -1,0 +1,26 @@
+<table>
+  <tr>
+    <th class="papodcast">
+
+      PAPODCAST
+    </th>
+    <th class="ap">APRESENTADO</th>
+    <th class="data">DATA</th>
+    <th class="duracao">DURAÇÃO</th>
+    <th class="play"> </th>
+  </tr>
+  <tr *ngFor="let episodio of episodios">
+    <td class="papodcast">
+      <img [src]="episodio.img" alt="">
+      <p>{{episodio.titulo}}</p>
+    </td>
+    <td>{{episodio.apresentado}}</td>
+    <td>{{episodio.data}}</td>
+    <td>{{episodio.duracao}}</td>
+    <td>
+      <div (click)="mudaControle(episodio.id)" class="play-button">
+        <mat-icon >{{episodio.player}}</mat-icon>
+      </div>
+    </td>
+  </tr>
+</table>

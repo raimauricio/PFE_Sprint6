@@ -1,0 +1,15 @@
+<h1>Ultimos lançamentos</h1>
+
+<div class="ultimos-ep">
+  <div class="episodio" *ngFor="let episodio of ultimosEp">
+    <img [src]="episodio.imgMed" alt="">
+    <div class="info">
+      <h4>{{episodio.titulo}}</h4>
+      <p>{{episodio.apresentado}}</p>
+      <span>{{episodio.data}}</span><span>{{episodio.duracao}}</span>
+      <div (click)="mudaControle(episodio.id)" class="play-button">
+        <mat-icon >{{operador}}</mat-icon>
+      </div>
+    </div>
+  </div>
+</div>

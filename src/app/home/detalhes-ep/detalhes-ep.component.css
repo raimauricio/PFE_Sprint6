@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&family=Inter:wght@300;400;500&display=swap');
+
+h1{
+
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  color: #494D4B;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+
+}
+
+.detalhes-ep{
+
+  margin-left: 25px;
+  margin-top: 10px;
+  width: 400px;
+  height: 390px;
+
+}
+
+p{
+
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #ABA8B3;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 0px;
+
+}
+
+mat-icon{
+
+  color: #494D4B;
+
+}
+
+.card-ep{
+
+  width: 400px;
+  height: 365px;
+  background: #FFFFFF;
+  border: 1px solid #E6E8EB;
+  box-sizing: border-box;
+  border-radius: 24px;
+  padding-left: 18px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0px;
+
+}
+
+.card-ep img{
+
+  width: 360px;
+  height: 140px;
+  border-radius: 16px;
+
+}
+
+.card-ep h3{
+
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #494D4B;
+  margin-top: 15px;
+
+}
+
+.card-ep h4{
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #808080;
+
+}
+
+.card-ep p{
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  width: 323px;
+  height: 75px;
+  text-transform: none;
+
+}
+
+span{
+
+  float: right;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #808080;
+  margin-bottom: 5px;
+
+}
+
+.card-ep .registro{
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 20px;
+  margin-bottom: 10px;
+
+}
+
+.ponto{
+
+  width: 4px;
+  height: 4px;
+  margin-top: 7px;
+  margin-left: 2px;
+  margin-right: 2px;
+  background: #DDDDDD;
+
+}
